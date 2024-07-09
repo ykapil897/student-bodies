@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* For navigation bar */
+nav{
+    display: flex;
+    /* background: #c7bebe; */
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+
+#img{
+    width: 50px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+#img img{
+    height: inherit;
+    /* filter: invert(25%); */
+}
+
+#name{
+    color: #374048;
+    font-size: 40px;
+    font-family: 'Alkatra', cursive;
+    margin: 10px 57px;
+}
+
+#nav ul{
+    display: flex;
+    margin: 10px 30px;
+}
+
+#nav li{
+    list-style: none;
+    /* margin: 20px 31px; */
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+    color: #3d464e;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+#nav a:hover{
+    color: white;
+    background-color: black;
+}
+
+#nav #active a:nth-child(1){
+    color: black;
+}
+
+#icons{
+    margin-left: 100px;
+}
+
+#icons img{
+    height: 40px;
+    margin: 10px 10px;
+}
+
+
+/* For section (contact) */
+
+#contact{
+    background-color: #212120;
+    height: 605px;
+}
+#contact h1{
+    font-size: 50px;
+    padding: 43px 300px 0px 300px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#contact .container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+#contact .form{
+    width: 100%;
+    position: relative;
+    left: 295px;
+}
+
+#contact .img{
+    width: 538px;
+    height: 315px;
+    position: relative;
+    right: 359px;
+    top: 36px;
+}
+
+#contact img{
+    width: inherit;
+    height: inherit;
+}
+
+#contact input,textarea{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #212120;
+    border: none;
+    color: #777977;
+    border-bottom: 1px solid white;
+    font-family: 'Rajdhani', sans-serif;
+    width: 40%;
+    height: 60px;
+}
+
+#contact .input{
+    /* margin: 30px 0px; */
+}
+
+#contact input[type="submit"]{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 15%;
+    margin: 52px 0px;
+}
+
+
+/* For footer */
+
+
+footer{
+    display: flex;
+    /* position: relative; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    background-color: #ebebf0;
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+footer li{
+    list-style: none;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer #rights{
+    width: 20%;
+    font-size: 35px;
+    text-align: left;
+}
+
+footer #photos div{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 44px;
+}
+
+footer #photos img{
+    width: inherit;
+    height: inherit;
+}

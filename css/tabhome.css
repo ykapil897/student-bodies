@@ -1,0 +1,227 @@
+
+/* For navigation bar */
+nav{
+    display: flex;
+    /* background: #c7bebe; */
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+
+#img{
+    width: 50px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+#img img{
+    height: inherit;
+    /* filter: invert(25%); */
+}
+
+#name{
+    color: #374048;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+    margin: 10px 0px 10px 40px;
+    width: 9%;
+}
+
+#nav ul{
+    display: flex;
+    margin: 10px 21px;
+}
+
+#nav li{
+    list-style: none;
+    /* margin: 20px 31px; */
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Alkatra', cursive;
+    color: #3d464e;
+    padding: 11px 15px;
+    border-radius: 10px;
+}
+
+#nav a:hover{
+    color: white;
+    background-color: black;
+}
+
+#nav #active a:nth-child(1){
+    color: black;
+}
+
+#icons{
+    margin-left: 52px;
+}
+
+#icons img{
+    height: 40px;
+    margin: 10px 10px;
+}
+
+
+/* For section of "What comes under it (wcui)" */
+
+#wcui{
+    height: 1816px;
+}
+#wcui h1{
+    font-size: 82px;
+    padding: 33px 370px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#wcui .container{
+    display: flex;
+    width: 75%; 
+    border: 2px solid black;  
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#wcui #studentSenate{
+    border-left: none;
+    height: 338px;
+}
+
+#wcui #acac{
+    flex-direction: row-reverse;
+    float: right;
+    height: 464px;
+    border-right: none;
+}
+
+#wcui #sac{
+    border-left: none;
+}
+
+#wcui #gymKhana{
+    flex-direction: row-reverse;
+    float: right;
+    border-right: none;
+    width: 75%;
+}
+
+#wcui .img{
+    width: 200px;
+    height: 200px;
+}
+#wcui #ssimg{
+    width: 279px;
+    height: 290px;    
+}
+
+#wcui #acacimg{
+    width: 344px;
+    height: 224px;
+    margin-top: 34px;
+}
+
+#wcui #sacimg{
+    width: 307px;
+    height: 340px;
+}
+
+#wcui #gymKhanaimg{
+    width: 399px;
+    height: 325px;
+}
+
+#wcui img{
+    height: inherit;
+    width: inherit;
+}
+
+#wcui .contItems{
+    margin: 10px 34px;
+
+}
+
+#wcui #acac .contItems{
+    margin: 10px;
+}
+
+#wcui #gymKhana .contItems{
+    margin: 10px;
+}
+
+#wcui .head{
+    font-size: 53px;
+    /* margin: 10px 0px 4px 0px; */
+    font-family: 'Roboto Slab', serif;
+}
+
+#wcui p{
+    font-size: 30px;
+    margin: 0px 0px 24px 6px;
+}
+
+#wcui a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 56px 6px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+#wcui a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* For footer */
+
+
+footer{
+    display: flex;
+    /* position: relative; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    background-color: #ebebf0;
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+footer li{
+    list-style: none;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer #rights{
+    width: 20%;
+    font-size: 25px;
+    text-align: left;
+}
+
+footer #photos div{
+    width: 203px;
+    height: 176px;
+    margin-bottom: 44px;
+}
+
+footer #photos img{
+    width: inherit;
+    height: inherit;
+}
+
+
+
