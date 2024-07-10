@@ -6,11 +6,11 @@ path.join(__dirname, "/css");
 console.log(__dirname);
 const hostname = '127.0.0.1';
 const port = 3000;
-const home = fs.readFileSync('C:/web development/practice/student bodies/html/home.html')
-const ss = fs.readFileSync('C:/web development/practice/student bodies/html/ss.html')
-const sac = fs.readFileSync('C:/web development/practice/student bodies/html/sac.html')
-const feedback = fs.readFileSync('C:/web development/practice/student bodies/html/feedback.html')
-const acac = fs.readFileSync('C:/web development/practice/student bodies/html/acac.html')
+const home = fs.readFileSync('./html/home.html')
+const ss = fs.readFileSync('./html/ss.html')
+const sac = fs.readFileSync('./html/sac.html')
+const feedback = fs.readFileSync('./html/feedback.html')
+const acac = fs.readFileSync('./html/acac.html')
 
 const server = http.createServer((req, res)=>{
     console.log(req.url);
